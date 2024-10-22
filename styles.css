@@ -393,3 +393,13 @@ footer {
         height: auto;
     } 
 }
+@media(min-width:281px) and (max-width:414px){
+    .post-card2{
+        height: auto;
+    } 
+}
+@media(min-width:281px) and (max-width:414px){
+    .post-card3{
+        height: auto;
+    } 
+}
