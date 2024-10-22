@@ -375,16 +375,21 @@ footer {
 
 @media (max-width: 280px) {
     .post-card1 {
-        height: 800px;
+        height: auto;
     }
 }
 @media (max-width: 280px) {
     .post-card2 {
-        height: 800px;
+        height: auto;
     }
 }
 @media (max-width: 280px) {
     .post-card3{
-        height: 800px;
+        height: auto;
     }
+}
+@media(min-width:281px) and (max-width:414px){
+    .post-card1{
+        height: auto;
+    } 
 }
