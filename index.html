@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To-do List</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" href="plan.png" type="image/x-icon">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Caveat:wght@400..700&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Shadows+Into+Light&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Oranienbaum&display=swap" rel="stylesheet">
+</head>
+  <body>
+    <nav class="barra-navegacion">
+      <ul>
+        <li><a href="#">Inicio</a></li>
+        <li><a href="#añadir">Añadir</a></li>
+        <li><a href="#ajustes">Ajustes</a></li>
+        <li><a href="#ayuda">Ayuda</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+    <h1>Lista de tareas
+    <img class="icono" src="/icons/escribiendo.png" alt="icono">
+    </h1>
+    <section>
+        <div class="section-tarjet">
+            <div class="section-post-card">
+                <h3 id="añadir">Añadir una nueva tarea</h3>
+                <div class="signo-mas">
+                    <input type="text" placeholder="...................................................................................................................................">
+                    <label for=""></label>
+                    <button>Añadir</button>
+                  </div>
+                  <div class="seleccion">
+                    <h4>Añadir a tareas: </h4>
+                    <p>Por hacer <label class="checkbox-container">
+                      <input type="checkbox">
+                      <span class="checkmark"></span>
+                  </label></p>
+                    <p>En proceso<label class="checkbox-container">
+                      <input type="checkbox">
+                      <span class="checkmark"></span>
+                  </label></p>
+                    <p>Finalizadas<label class="checkbox-container">
+                      <input type="checkbox">
+                      <span class="checkmark"></span>
+                  </label></p>
+                  </div>
+            </div>
+        </div>
+    </section>
+    <main class="principal">
+      <div class="tarjet">
+        <div class="post-card1">
+          <div class="progress">Progreso: </div>
+          <div class="barra-progreso-1">
+            <div class="relleno-1">0%</div>
+          </div>
+          <div class="por-hacer">
+            <h3>HACER!</h3>
+            <ul>
+              <li>Estudiar Matemática<input class="check" type="checkbox"></li>
+              <li>Estudiar Inglés<input class="check" type="checkbox"></li>
+              <li>Ir al gimnasio<input class="check" type="checkbox"></li>
+              <li>Limpiar patio<input class="check" type="checkbox"></li>
+            </ul>
+            <div class="signo-mas">
+                <input type="text" placeholder="Añadir nueva tarea...">
+              <button>Añadir</button>
+              </div>
+          </div>
+        </div>
+      </div>
+      <div class="tarjet">
+        <div class="post-card2">
+          <div class="progress">Progreso:</div>
+          <div class="barra-progreso-1">
+            <div class="relleno-2">50%</div>
+          </div>
+          <div class="en-progreso">
+            <h3>En progreso</h3>
+            <ul>
+              <li>Resumen Sociales<input class="check" type="checkbox"></li>
+              <li>Resumen Geografía<input class="check" type="checkbox"></li>
+              <li>Practicar Francés<input class="check" type="checkbox"></li>
+            </ul>
+           
+            <div class="signo-mas">
+              <input type="text" placeholder="Añadir nueva tarea...">
+            <button>Añadir</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="tarjet">
+        <div class="post-card3">
+          <div class="progress">Progreso:</div>
+          <div class="barra-progreso-1">
+            <div class="relleno-3">100%</div>
+          </div>
+          <div class="finalizado">
+            <h3>Finalizado ✔</h3>
+            <ul>
+              <li>Resumen Lengua</li>
+              <li>Limpiar casa</li>
+              <li>Preparar comida</li>
+            </ul>
+            
+            <div class="signo-mas">
+                <input type="text" placeholder="Añadir nueva tarea...">
+              <button>Añadir</button>
+              </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+        <ul class="footer-links">
+            <li><a href="#" id="ajustes">Ajustes <img src="/icons/configuraciones.png" alt=""></a></li>
+            <li><a href="#" id="ayuda">Ayuda <img src="/icons/pregunta.png" alt=""></a></li>
+            <li><a href="#" id="contacto">Contacto <img src="/icons/movil.png" alt=""></a></li>
+        </ul>
+    </footer>
+  </body>
+</html>
