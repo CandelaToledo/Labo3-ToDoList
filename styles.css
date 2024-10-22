@@ -375,7 +375,7 @@ footer {
 
 @media (max-width: 280px) {
     .post-card1 {
-        height: 750px;
+        height: 800px;
     }
 }
 @media (max-width: 280px) {
@@ -385,6 +385,6 @@ footer {
 }
 @media (max-width: 280px) {
     .post-card3{
-        height: 750px;
+        height: 800px;
     }
 }
